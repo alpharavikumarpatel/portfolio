@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Portfolio of Ravi Patel, an aspiring Full-Stack Developer and second-year student." />
+  <meta name="theme-color" content="#0a0e1a" />
+  <title>Ravi Patel | Aspiring Full-Stack Developer</title>
+
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- Skip link for keyboard and screen-reader users -->
+  <a class="skip-link" href="#main">Skip to main content</a>
+
+  <!-- ================= HEADER / NAVIGATION ================= -->
+  <header class="site-header" id="top">
+    <nav class="nav container" aria-label="Main navigation">
+      <a href="#hero" class="logo" aria-label="Ravi Patel, go to top">
+        <span class="logo-bracket">&lt;</span>Ravi<span class="logo-accent">Patel</span><span class="logo-bracket">/&gt;</span>
+      </a>
+
+      <!-- Hamburger button (visible on small screens only) -->
+      <button
+        class="nav-toggle"
+        id="nav-toggle"
+        aria-label="Open menu"
+        aria-expanded="false"
+        aria-controls="nav-menu"
+      >
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </button>
+
+      <ul class="nav-menu" id="nav-menu">
+        <li><a href="#hero" class="nav-link">Home</a></li>
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#skills" class="nav-link">Skills</a></li>
+        <li><a href="#projects" class="nav-link">Projects</a></li>
+        <li><a href="#education" class="nav-link">Education</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="main">
+
+    <!-- ================= 1. HERO ================= -->
+    <section class="hero" id="hero" aria-labelledby="hero-title">
+      <div class="container hero-grid">
+        <div class="hero-text reveal">
+          <p class="eyebrow">Hello, I'm</p>
+          <h1 id="hero-title" class="hero-name">Ravi Kumar Patel</h1>
+          <p class="hero-role">Aspiring Full-Stack Developer</p>
+          <p class="hero-intro">
+            I'm a second-year student learning web development and programming.
+            I enjoy building things for the web and I'm working every day to grow
+            my skills on the path toward becoming a Full-Stack Developer.
+          </p>
+          <div class="hero-buttons">
+            <a href="#skills" class="btn btn-primary">Explore My Skills</a>
+            <a
+              href="https://www.linkedin.com/in/alpharavikumarpatel"
+              class="btn btn-outline"
+              target="_blank"
+              rel="noopener noreferrer"
+            >Connect on LinkedIn</a>
+          </div>
+        </div>
+
+        <div class="hero-photo reveal">
+          <div class="photo-frame">
+            <!--
+              HOW TO REPLACE THE PROFILE PHOTO:
+              1. Copy your photo into the folder: assets/images/  (for example: photo.jpg)
+              2. Change the src below to: src="assets/images/photo.jpg"
+              3. Update the alt text if you like.
+              Tip: a square photo (for example 600 x 600 pixels) looks best.
+            -->
+            <img
+              src="assets/images/profile.jpeg"
+              alt="Placeholder profile photo of Ravi Patel. Replace with your own photo."
+              width="600"
+              height="600"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= 2. ABOUT ================= -->
+    <section class="section" id="about" aria-labelledby="about-title">
+      <div class="container">
+        <h2 id="about-title" class="section-title reveal"><span class="num">01.</span> About Me</h2>
+        <div class="about-card reveal">
+          <p>
+            Hi, I'm Ravi! I'm a second-year student working toward my goal of
+            becoming a Full-Stack Developer. I'm curious about how websites and
+            software work, from what you see on the screen to the logic behind it.
+          </p>
+          <p>
+            Right now I'm focused on learning, practicing, and building a strong
+            foundation in web development and programming. I'm always happy to
+            connect with others who share an interest in technology.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= 3. SKILLS ================= -->
+    <section class="section" id="skills" aria-labelledby="skills-title">
+      <div class="container">
+        <h2 id="skills-title" class="section-title reveal"><span class="num">02.</span> Skills</h2>
+        <p class="section-subtitle reveal">Technologies and tools I'm learning and working with.</p>
+
+        <ul class="skills-grid">
+          <li class="skill-card reveal">
+            <span class="skill-icon" aria-hidden="true">&lt;/&gt;</span>
+            <h3>HTML</h3>
+          </li>
+          <li class="skill-card reveal">
+            <span class="skill-icon" aria-hidden="true">{ }</span>
+            <h3>CSS</h3>
+          </li>
+          <li class="skill-card reveal">
+            <span class="skill-icon" aria-hidden="true">JS</span>
+            <h3>JavaScript</h3>
+          </li>
+          <li class="skill-card reveal">
+            <span class="skill-icon" aria-hidden="true">C</span>
+            <h3>C</h3>
+          </li>
+          <li class="skill-card reveal">
+            <span class="skill-icon" aria-hidden="true">&#9749;</span>
+            <h3>Java</h3>
+          </li>
+          <li class="skill-card reveal">
+            <span class="skill-icon" aria-hidden="true">&#9638;</span>
+            <h3>Microsoft Excel</h3>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ================= 4. PROJECTS ================= -->
+    <section class="section" id="projects" aria-labelledby="projects-title">
+      <div class="container">
+        <h2 id="projects-title" class="section-title reveal"><span class="num">03.</span> Projects</h2>
+
+        <div class="coming-soon reveal">
+          <div class="coming-soon-icon" aria-hidden="true">&#9881;</div>
+          <h3>Projects Coming Soon</h3>
+          <p>I'm currently working on building my first projects. Check back soon!</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= 5. EDUCATION ================= -->
+    <section class="section" id="education" aria-labelledby="education-title">
+      <div class="container">
+        <h2 id="education-title" class="section-title reveal"><span class="num">04.</span> Education</h2>
+
+        <div class="edu-card reveal">
+          <h3>Second-year student</h3>
+          <p>
+            You can find more about me on
+            <a
+              href="https://www.linkedin.com/in/alpharavikumarpatel"
+              target="_blank"
+              rel="noopener noreferrer"
+            >my LinkedIn profile</a>.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= 6. CONTACT ================= -->
+    <section class="section" id="contact" aria-labelledby="contact-title">
+      <div class="container">
+        <h2 id="contact-title" class="section-title reveal"><span class="num">05.</span> Contact</h2>
+
+        <div class="contact-card reveal">
+          <p>
+            I'd love to connect. The best way to reach me is through LinkedIn.
+          </p>
+          <a
+            href="https://www.linkedin.com/in/alpharavikumarpatel"
+            class="btn btn-primary"
+            target="_blank"
+            rel="noopener noreferrer"
+          >Connect on LinkedIn</a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ================= 7. FOOTER ================= -->
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>&copy; <span id="year">2026</span> Ravi Patel. All rights reserved.</p>
+      <a href="#top" class="back-to-top">Back to top &uarr;</a>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
